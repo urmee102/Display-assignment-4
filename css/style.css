@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #332f30;
+}
+header{
+
+padding: 20px 0;
+}
+.container{
+
+width: 1000px;
+
+margin: 0 auto;
+
+overflow: hidden;
+}
+.logo{
+
+width: 20%;
+
+float: left;
+}
+.logo img{
+    display: inline-block;
+    vertical-align: middle;
+}
+span{
+
+display: inline-block;
+
+vertical-align: middle;
+
+color: #737373;
+
+font-size: 29px;
+
+font-weight: 600;
+
+text-transform: capitalize;
+
+margin: 4px;
+}
+.social{
+
+width: 80%;
+
+float: left;
+}
+.social nav{
+
+
+}
+.social nav ul{text-align: right;}
+.social nav ul li{
+
+display: inline-block;
+
+list-style: none;
+
+position: relative;
+}
+.social nav ul li img{
+
+}
+.social nav ul li.cursor{position: absolute;top: 36px;left: 71%;display: block;}
+.menu-section{
+}
+.menu-section nav{
+	
+overflow: hidden;
+	
+border-top: 2px solid #73737373;
+	
+padding: 10px 0;
+}
+.menu-section nav ul{
+
+}
+.menu-section nav ul li{list-style: none;float: left;}
+.menu-section nav ul li a{
+
+color: #737373;
+
+text-transform: uppercase;
+
+text-decoration: none;
+
+padding: 5px 18px 5px 0;
+
+display: block;
+}
+.Home{
+}
+.banner-section{background-image: url(../images/slider_background.png);background-repeat: no-repeat;background-size: cover;height: 70vh;position: relative;}
+.slider{
+
+}
+.banner{
+	
+position: absolute;
+	
+display: block;
+}
+.banner img{
+	
+margin: 0 auto;
+	
+transform: translatey(70px);
+}
+.portfolio-section{padding: 10% 0;margin-bottom: -6%;}
+.content{
+
+text-align: center;
+}
+.content p{
+
+max-width: 600px;
+
+margin: 0 auto;
+
+margin-bottom: 38px;
+}
+.btn{background: #2ecc71;display: inline-block;color: #fff;padding: 10px 25px;text-decoration: none;text-transform: uppercase;font-weight: 800;border-radius: 5px;}
+.contact-section{
+
+padding: 60px 0;
+
+background: #464c52;
+}
+.left{
+
+width: 50%;
+
+float: left;
+}
+.left h2{
+
+color: #fff;
+
+text-transform: uppercase;
+}
+.right{
+
+width: 50%;
+
+float: left;
+
+text-align: right;
+}
+.right a{
+	
+background: #2ecc71;
+	
+display: inline-block;
+	
+color: #fff;
+	
+padding: 10px 25px;
+	
+text-decoration: none;
+	
+text-transform: uppercase;
+	
+font-weight: 800;
+	
+border-radius: 5px;
+}
+.footer-section{
+
+}
+footer{
+
+padding: 17px 0;
+}
+.copyright{
+
+width: 50%;
+
+float: left;
+}
+
+.copyright p{
+
+font-size: 16px;
+
+color: #756b6b;
+}
+.menu{
+
+width: 50%;
+
+float: left;
+}
+.menu ul{
+
+list-style: none;
+
+text-align: right;
+}
+.menu ul li{display: inline-block;}
+.menu ul li a{
+
+text-decoration: wavy;
+
+color: #756b6b;
+
+text-transform: uppercase;
+
+padding-left: 10px;
+
+position: relative;
+}
+.menu ul li a:after{
+	content: "/";
+	position: absolute;
+	right: -10px;
+	
+}	
